@@ -2,5 +2,9 @@ body {
   background-image: url("external-content.duckduckgo.jpg")
 }
 #main {
-  background-color: lightblue
+  width: 500px;
+  height: auto;
+  border: 10px outset blue;
+  background-color: lightblue;    
+  text-align: center;
 }
