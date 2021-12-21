@@ -1,9 +1,9 @@
 html {
-  height: 100%
+  height: 100%;
 }
 body {
-  height: 100%
-  background-image: url("external-content.duckduckgo.jpg")
+  height: 100%;
+  background-image: url("external-content.duckduckgo.jpg");
 }
 #main {
   width: 500px;
