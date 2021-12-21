@@ -3,6 +3,7 @@ body {
 }
 #main {
   width: 500px;
+  margin: auto;
   height: auto;
   border: 10px outset blue;
   background-color: lightblue;    
