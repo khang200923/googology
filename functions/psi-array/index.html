@@ -13,10 +13,10 @@
        <em>Note: \(\#\) is defined as the rest of the array.</em>
        <p>This is \(\psi\{a\}_n\) where \(a\) (Array) is a sequence consists of countable ordinals and \(n\) (Base) is a nonnegative integer.</p><br />
        <h3>Basic rules</h3><br />
-       <b>Output: </b><p>\(\psi\{\}_n = n\)</p><br />
-       <b>Empty: </b><p>\(\psi\\{\#_1{0}\#_2\}_n = \psi\\{\#_1\}_n\)<br />
-       <b>Psi-ing: </b><p>\((n,m) = (n-1,\psi(m))\) where \(n\) and \(m\) are two different arguments in the array or the base.</p><br />
-       <b>Wainering: </b><p>\((n,m) = (n,m[n]\) where \(n\) and \(m\) are two different arguments in the array or the base.</p><br />
+       <p><b>Output: </b>\(\psi\{\}_n = n\)</p><br />
+       <p><b>Empty: </b>\(\psi\\{\#_1{0}\#_2\}_n = \psi\\{\#_1\}_n\)<br />
+       <p><b>Psi-ing: </b>\((n,m) = (n-1,\psi(m))\) where \(n\) and \(m\) are two different arguments in the array or the base.</p><br />
+       <p><b>Wainering: </b>\((n,m) = (n,m[n]\) where \(n\) and \(m\) are two different arguments in the array or the base.</p><br />
        Least prior rules are <b>Psi-ing</b> and <b>Wainering</b>, used if none of the rules are applied. If not unique, pick 2 numbers that apply to the rule to perform that results in a big number.
        <h3>Linear array rules</h3><br />
        <b>Recursion: </b><p>\(\psi\{\#a,b\}_n = \psi\{\#\psi\{\#a,b-1\}_n,b-1\}_{\psi\{\#a,b-1\}_n}\)</p>
