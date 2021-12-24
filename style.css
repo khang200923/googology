@@ -4,6 +4,9 @@ html {
 body {
   height: 100%;
   background-image: url("external-content.duckduckgo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 #main {
   width: 675px;
